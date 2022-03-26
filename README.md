@@ -59,3 +59,10 @@ Contributors
 * Mark Galloway
 * Abram Hindle
 * Cole Mackenzie
+* Lewis Ning
+
+References
+============
+1. https://github.com/abramhindle/WebSocketsExamples
+2. https://github.com/abramhindle/WebSocketsExamples/blob/master/chat.py
+3. https://github.com/uofa-cmput404/cmput404-slides/blob/master/examples/ObserverExampleAJAX/server.py
