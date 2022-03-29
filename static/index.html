@@ -237,6 +237,8 @@ mouse = (function() {
 //XXX: TODO Make these prettier!
 mouse.mousedowners.push(function(x,y,clicked,e) {
     addEntityWithoutName({'x':x,'y':y,'colour':'white'});
+    addEntityWithoutName({'x':x+10,'y':y+10,'colour':'green'});
+    addEntityWithoutName({'x':x-10,'y':y-10,'colour':'yellow'})
 });
 
 mouse.mouseuppers.push(function(x,y,clicked,e) {
@@ -244,8 +246,8 @@ mouse.mouseuppers.push(function(x,y,clicked,e) {
 });
 
 mouse.mousedraggers.push(function(x,y,clicked,e) {
-    addEntityWithoutName({'x':x,'y':y,'colour':'yellow',
-                          'radius':20});
+    addEntityWithoutName({'x':x,'y':y,'colour':'purple','radius':20});
+    addEntityWithoutName({'x':x,'y':y+20,'colour':'blue','radius':20});
 });
 
 
